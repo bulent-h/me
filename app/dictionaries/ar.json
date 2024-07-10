@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact me"
+  },
+  "footer": {
+    "home": "home",
+    "about": "about",
+    "contact":"contact"
+  },
+  "home": {
+    "hello": "مرحبأ. أنا بولند.",
+    "description":"مطور FullStack يقوم في الغالب بتخريب الأشياء :). أنا متحمس لبناء مواقع الويب للشركات الصغيرة والمتوسطة. أعرف CSS وJS وPHP وReact وWordPress وLaravel وSEO. يسعدني مناقشة متطلبات مشروعك ومعرفة كيف يمكنني مساعدتك في تحقيق أهدافك. لا تتردد في الاتصال بي."
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Dies ist die About-Seite"
+  }
+}

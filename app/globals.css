@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  background-color: rgb(0, 0, 0);
+
+}
+
+
+.unselectable {
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+
+
+.cardContainer{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  .card{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -25%;
+    height: 500px;
+    width: 1000px;
+    border-radius: 25px;
+    padding:50px;
+    transform-origin: top;
+    h2{
+      text-align: center;
+      margin: 0px;
+      font-size: 28px;
+    }
+    .body{
+      display: flex;
+      height: 100%;
+      margin-top: 50px;
+      gap: 50px;
+
+      .description{
+        width: 40%;
+        position: relative;
+        top: 10%;
+        p{
+          font-size: 16px;
+          &::first-letter{
+            font-size: 28px;
+            font-family: 'Title';
+          }
+        }
+        span{
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          a{
+            font-size: 12px;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .imageContainer{
+        position: relative;
+        width: 60%;
+        height: 100%;
+        border-radius: 25px;
+        overflow: hidden;
+        .inner{
+          width: 100%;
+          height: 100%;
+        }
+        img{
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+/* ___________________ */
+
+scroll-watcher{
+  height: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: aqua;
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll(y);
+
+}
+@keyframes scroll-watcher {
+  to {scale: 1 1;}
+  
+}
+
+@animation scroll-watcher{
+  to {scale: 1 1;}
+}
+articale > img{
+  animation: fade-in linear;
+  animation-timeline: view(250px);
+}
+
+@keyframes fade-id {
+from {scale: .8; opacity: 0;}
+to {scale: 1; opacity: 1;}  
+}
+/* ___________________ */
+
+@import url(https://fonts.googleapis.com/css?family=Syncopate:400,700);
+
+body {
+  font-family: 'Syncopate';
+  margin: 0px;
+}
+
+.title {
+  
+  text-transform: uppercase;
+  font-size: 5vw;
+  font-weight: bold;
+  /* text-shadow: -3px 0 hsla(200, 100%, 50%, 0.25), 0 4px hsla(200, 10%, 50%, 0.5), 4px 0 hsla(200, 10%, 50%, 0.25), 0 -3px hsla(240, 30%, 50%, 0.5); */
+
+  color: hsla(0, 0%, 0%, 0.9);
+  width: 100%;
+  text-align: center;
+  margin-top: calc(50vh - 5vw);
+}
+
+.sub-title {
+  width: 100%;
+  text-align: center;
+  color: hsla(0, 0%, 80%, 0.5);
+  font-size: 18px
+}
+
+svg.star-background {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  
+  min-width: 100%;
+  height: 100%;
+}
+
+
+
+.parent {
+  background: white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent[data-isOpen="true"] {
+  width: 400px;
+  height: 200px;
+}
+
+.child {
+  width: 40px;
+  height: 40px;
+  background: #f107a3;
+  border-radius: 50%;
+}

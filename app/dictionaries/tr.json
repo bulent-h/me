@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact me"
+  },
+  "footer": {
+    "home": "home",
+    "about": "about",
+    "contact":"contact"
+  },
+  "home": {
+    "hello": "Merhaba. Ben Bülent.",
+    "description": "Çoğunlukla bir şeyleri bozan fullstack geliştiriciyim :). \n Küçük ve orta ölçekli işletmeler için web siteleri oluşturma konusunda tutkuluyum. CSS, JS, PHP, React, WordPress, Laravel ve SEO'yu biliyorum. Proje gereksinimlerinizi tartışmaktan ve hedeflerinize ulaşmanıza nasıl yardımcı olabileceğimi görmekten heyecan duyuyorum. Benimle rahatça iletişime geçebilirsin."
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Dies ist die About-Seite"
+  }
+}

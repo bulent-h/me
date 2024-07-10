@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact me"
+  },
+  "footer": {
+    "home": "home",
+    "about": "about",
+    "contact": "contact"
+  },
+  "home": {
+    "hello": "Hello. I'm Bulent.",
+    "description": "A full stack developer who is mostly breaking things :). \n I'm passionate to building websites for small and medium-sized businesses. I Know CSS, JS, PHP, React, WordPress, Laravel and SEO. I am excited to discuss your project requirements and see how I can help you achieve your goals. Please feel free to contact me."
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Dies ist die About-Seite"
+  }
+}
