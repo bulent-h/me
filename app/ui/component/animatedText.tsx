@@ -7,7 +7,7 @@ export default function AnimatedText({ text }: { text: String }) {
     return (
         <>
 
-            <motion.span
+            <motion.div
                 initial="hidden"
                 animate="visible"
                 transition={{ staggerChildren: 0.02 }}
@@ -20,7 +20,7 @@ export default function AnimatedText({ text }: { text: String }) {
                         {letter}
                     </motion.span>
                 ))}
-            </motion.span>
+            </motion.div>
         </>
     )
 }

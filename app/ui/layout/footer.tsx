@@ -21,7 +21,7 @@ export default function Footer() {
           Email: a.bulent.h@gmail.com
         </span>
         <span className="text-sm">
-          Copyright 2024 
+          Copyright 2025 
         </span>
       </footer>
 
